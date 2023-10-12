@@ -1,0 +1,25 @@
+.search-bar {
+  height: 5.0625rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1.875rem;
+  background-color: rgba(255, 255, 255, 0.212);
+  .search-input {
+    background-color: transparent;
+    outline: none;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+  }
+  .search-input::placeholder {
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+  .search-icon {
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-left: 1rem;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 2px solid white;
+  }
+}

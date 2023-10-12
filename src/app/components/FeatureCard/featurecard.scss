@@ -1,0 +1,23 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-light");
+@font-face {
+  font-family: "GilroyLight";
+  src: url(../../assets/font/Gilroy-Light.otf);
+}
+.feature-card {
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.065);
+  font-family: "GilroyLight", "Gilroy" sans-serif;
+  .feature-name {
+    font-weight: 100;
+    letter-spacing: 0.3rem;
+  }
+  .feature-link {
+    width: 70%;
+    font-size: 3rem;
+    font-weight: 200;
+    background-color: white;
+    position: relative;
+    border-radius: 1rem;
+    color: black;
+  }
+}
